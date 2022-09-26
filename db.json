@@ -1,35 +1,46 @@
 {
   "jogadores": [
     {
-      "id": 2,
+      "id": 1,
       "nome": "Alex Teixeira",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
-      "preco": 10.5,
-      "categoria_id": 1
+      "altura": 1.74,
+      "numero": 7,
+      "clube_id": 1
     },
 	{
-      "id": 1,
+      "id": 2,
       "nome": "Andrey Santos",
-      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
-      "preco": 8.5,
-      "categoria_id": 1
+      "altura": 1.76,
+      "numero": 8,
+      "clube_id": 1
     },
 	{
-      "id": 1,
+      "id": 3,
       "nome": "Nenê",
-      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
-      "preco": 8.5,
-      "categoria_id": 1
+      "altura": 1.81,
+      "numero": 10,
+      "clube_id": 1
+    },
+	{
+      "id": 4,
+      "nome": "Jeffinho",
+      "altura": 1.76,
+      "numero": 47,
+      "clube_id": 2
     },
   ],
-  "posicoes": [
+  "clube": [
     {
       "id": 1,
-      "nome": "Hambúrgueres"
+      "nome": "Vasco da Gama",
+	  "origem": "Brasil",
+	  "ano_fundacao": 1898
     },
     {
       "id": 2,
-      "nome": "Refrigerantes"
+      "nome": "Botafogo",
+	  "origem": "Brasil",
+	  "ano_fundacao": 1894
     }
   ]
 }
